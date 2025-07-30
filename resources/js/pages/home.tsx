@@ -1,8 +1,6 @@
-import { WHATSAPP } from '@/constants/app-config';
 import { BrandLogo, HeroBanner } from '@/constants/asset';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { Layout } from '@/layouts/layout';
-import { Link } from '@inertiajs/react';
 
 export default function HomePage() {
     const isMobile = useIsMobile();
@@ -21,7 +19,7 @@ export default function HomePage() {
 
                         <p className="mb-6 w-50 text-lg lg:w-full lg:text-xl">Pesan air isi ulang berkualitas langsung dari depot terpercaya Anda.</p>
 
-                        <div className="flex justify-end gap-4">
+                        {/* <div className="flex justify-end gap-4">
                             <Link href="/orders" className="rounded-full bg-blue-600 px-6 py-3 text-lg text-white transition hover:bg-blue-700">
                                 Order Sekarang
                             </Link>
@@ -33,7 +31,7 @@ export default function HomePage() {
                             >
                                 Hubungi
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 )}
             </section>

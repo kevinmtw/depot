@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Orders;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Order;
+use Carbon\Carbon;
 
 class OrdersController extends Controller
 {
@@ -61,6 +62,23 @@ class OrdersController extends Controller
             'success' => true,
             'message' => 'Pesanan berhasil diperbarui.',
             'data' => $order,
+        ]);
+    }
+
+    public function count()
+    {
+        $today = Carbon::today();
+        $now = Carbon::now();
+
+        $totalDaily = Order::whereDate('created_at', $today)->count();
+        $totalMonthly = Order::whereYear('created_at', $now->year)
+                    ->whereMonth('created_at', $now->month)
+                    ->count();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Total pesanan.',
+            'data' => ['totalDaily' => $totalDaily, 'totalMonthly' => $totalMonthly],
         ]);
     }
 

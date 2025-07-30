@@ -53,6 +53,10 @@ Route::middleware('guest')->group(function () {
     Route::get('/testimonials', function () {
         return Inertia::render('testimonials');
     })->name('testimonials');
+
+    Route::get('/contact', function () {
+        return Inertia::render('contact');
+    })->name('contact');
 });
 
 require __DIR__.'/api.php';

@@ -40,8 +40,12 @@ export function Navbar() {
                             Testimoni
                         </Link>
 
-                        <button className="text-sm hover:text-blue-600 lg:text-lg" onClick={handleRedirectWhatsapp}>
+                        <Link href="/contact" className="text-sm hover:text-blue-600 lg:text-lg">
                             Kontak
+                        </Link>
+
+                        <button className="text-sm hover:text-blue-600 lg:text-lg" onClick={handleRedirectWhatsapp}>
+                            WhatsApp
                         </button>
                     </div>
 

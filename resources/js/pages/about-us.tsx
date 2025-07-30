@@ -6,7 +6,7 @@ export default function AboutUs() {
             <div className="h-full bg-white">
                 <section className="bg-blue-100 px-6 py-16">
                     <div className="mx-auto max-w-5xl text-center">
-                        <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">Profil Usaha</h1>
+                        <h1 className="mb-10 text-4xl font-bold text-gray-900">Profil Usaha</h1>
                         <p className="mb-10 text-lg text-gray-800 md:text-xl">
                             Penyedia layanan air minum isi ulang yang berkomitmen untuk menyediakan air bersih, sehat, dan berkualitas tinggi langsung
                             ke rumah Anda.

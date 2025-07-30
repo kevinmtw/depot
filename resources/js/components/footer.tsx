@@ -50,8 +50,13 @@ export function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <button className="hover:underline" onClick={handleRedirectWhatsapp}>
+                            <Link href="/contact" className="hover:underline">
                                 Kontak
+                            </Link>
+                        </li>
+                        <li>
+                            <button className="hover:underline" onClick={handleRedirectWhatsapp}>
+                                WhatsApp
                             </button>
                         </li>
                     </ul>

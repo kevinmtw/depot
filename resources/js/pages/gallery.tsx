@@ -37,7 +37,7 @@ export default function Gallery() {
         <Layout>
             <div className="min-h-screen bg-blue-100 px-4 py-16">
                 <div className="mx-auto mb-12 max-w-6xl text-center">
-                    <h1 className="mb-4 text-3xl font-bold text-blue-700 md:text-4xl">Galeri</h1>
+                    <h1 className="mb-10 text-4xl font-bold text-gray-900">Galeri</h1>
                     <p className="text-lg text-gray-700">Lihat proses dan fasilitas dalam menyediakan air bersih berkualitas.</p>
                 </div>
 

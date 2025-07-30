@@ -73,6 +73,17 @@ class ServicesController extends Controller
         ]);
     }
 
+    public function count()
+    {
+        $totalServices = Service::count();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Total layanan.',
+            'data' => $totalServices
+        ]);
+    }
+
     public function destroy($id)
     {
         $service = Service::findOrFail($id);

@@ -51,6 +51,17 @@ class TestimonialsController extends Controller
         ]);
     }
 
+    public function count()
+    {
+        $totalTestimonials = Testimonials::distinct()->count('name');
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Total testimoni.',
+            'data' => $totalTestimonials
+        ]);
+    }
+
     public function destroy($id)
     {
         $testimonial = Testimonials::findOrFail($id);
