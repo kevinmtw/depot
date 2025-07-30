@@ -1,0 +1,51 @@
+services:
+    app:
+        image: laravel
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: laravel
+        ports:
+            - 8000:8000
+        depends_on:
+            - mysql
+        volumes:
+            - .:/app
+            - /app/node_modules
+        environment:
+            - DB_HOST=mysql
+            - DB_PORT=3306
+        pull_policy: build
+
+    vite:
+        image: vite
+        build:
+            context: .
+            dockerfile: Dockerfile.vite
+        container_name: vite
+        ports:
+            - 5173:5173
+        volumes:
+            - .:/app
+            - /app/node_modules
+        environment:
+            - HOST=0.0.0.0
+            - CHOKIDAR_USEPOLLING=true
+        pull_policy: build
+
+    mysql:
+        image: mysql:8.0
+        container_name: mysql
+        ports:
+            - 3306:3306
+        environment:
+            - MYSQL_DATABASE=depot
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+        volumes:
+            - depot-mysql:/var/lib/mysql
+
+volumes:
+    depot-mysql:
+        name: depot-mysql-volume

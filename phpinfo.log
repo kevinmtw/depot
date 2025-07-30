@@ -1,0 +1,566 @@
+#6 [depot 3/3] RUN echo "$(php -i)"
+#6 0.157 phpinfo()
+#6 0.157 PHP Version => 8.2.28
+#6 0.157 
+#6 0.157 System => Linux buildkitsandbox 6.10.14-linuxkit #1 SMP Fri Nov 29 17:22:03 UTC 2024 aarch64
+#6 0.157 Build Date => Apr 29 2025 00:25:47
+#6 0.157 Build System => Linux - Docker
+#6 0.157 Build Provider => https://github.com/docker-library/php
+#6 0.157 Configure Command =>  './configure'  '--build=aarch64-linux-gnu' '--with-config-file-path=/usr/local/etc/php' '--with-config-file-scan-dir=/usr/local/etc/php/conf.d' '--enable-option-checking=fatal' '--with-mhash' '--with-pic' '--enable-mbstring' '--enable-mysqlnd' '--with-password-argon2' '--with-sodium=shared' '--with-pdo-sqlite=/usr' '--with-sqlite3=/usr' '--with-curl' '--with-iconv' '--with-openssl' '--with-readline' '--with-zlib' '--enable-phpdbg' '--enable-phpdbg-readline' '--with-pear' '--with-libdir=lib/aarch64-linux-gnu' '--enable-embed' 'build_alias=aarch64-linux-gnu'
+#6 0.157 Server API => Command Line Interface
+#6 0.157 Virtual Directory Support => disabled
+#6 0.157 Configuration File (php.ini) Path => /usr/local/etc/php
+#6 0.157 Loaded Configuration File => (none)
+#6 0.157 Scan this dir for additional .ini files => /usr/local/etc/php/conf.d
+#6 0.157 Additional .ini files parsed => /usr/local/etc/php/conf.d/docker-php-ext-sodium.ini
+#6 0.157 
+#6 0.157 PHP API => 20220829
+#6 0.157 PHP Extension => 20220829
+#6 0.157 Zend Extension => 420220829
+#6 0.157 Zend Extension Build => API420220829,NTS
+#6 0.157 PHP Extension Build => API20220829,NTS
+#6 0.157 Debug Build => no
+#6 0.157 Thread Safety => disabled
+#6 0.157 Zend Signal Handling => enabled
+#6 0.157 Zend Memory Manager => enabled
+#6 0.157 Zend Multibyte Support => provided by mbstring
+#6 0.157 Zend Max Execution Timers => disabled
+#6 0.157 IPv6 Support => enabled
+#6 0.157 DTrace Support => disabled
+#6 0.157 
+#6 0.157 Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
+#6 0.157 Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2, tlsv1.3
+#6 0.157 Registered Stream Filters => zlib.*, convert.iconv.*, string.rot13, string.toupper, string.tolower, convert.*, consumed, dechunk
+#6 0.157 
+#6 0.157 This program makes use of the Zend Scripting Language Engine:
+#6 0.157 Zend Engine v4.2.28, Copyright (c) Zend Technologies
+#6 0.157 
+#6 0.157 
+#6 0.157  _______________________________________________________________________
+#6 0.157 
+#6 0.157 
+#6 0.157 Configuration
+#6 0.157 
+#6 0.157 Core
+#6 0.157 
+#6 0.157 PHP Version => 8.2.28
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 allow_url_fopen => On => On
+#6 0.157 allow_url_include => Off => Off
+#6 0.157 arg_separator.input => & => &
+#6 0.157 arg_separator.output => & => &
+#6 0.157 auto_append_file => no value => no value
+#6 0.157 auto_globals_jit => On => On
+#6 0.157 auto_prepend_file => no value => no value
+#6 0.157 browscap => no value => no value
+#6 0.157 default_charset => UTF-8 => UTF-8
+#6 0.157 default_mimetype => text/html => text/html
+#6 0.157 disable_classes => no value => no value
+#6 0.157 disable_functions => no value => no value
+#6 0.157 display_errors => STDOUT => STDOUT
+#6 0.157 display_startup_errors => On => On
+#6 0.157 doc_root => no value => no value
+#6 0.157 docref_ext => no value => no value
+#6 0.157 docref_root => no value => no value
+#6 0.157 enable_dl => On => On
+#6 0.157 enable_post_data_reading => On => On
+#6 0.157 error_append_string => no value => no value
+#6 0.157 error_log => no value => no value
+#6 0.157 error_log_mode => 0644 => 0644
+#6 0.157 error_prepend_string => no value => no value
+#6 0.157 error_reporting => no value => no value
+#6 0.157 expose_php => On => On
+#6 0.157 extension_dir => /usr/local/lib/php/extensions/no-debug-non-zts-20220829 => /usr/local/lib/php/extensions/no-debug-non-zts-20220829
+#6 0.157 fiber.stack_size => no value => no value
+#6 0.157 file_uploads => On => On
+#6 0.157 hard_timeout => 2 => 2
+#6 0.157 highlight.comment => <font style="color: #FF8000">#FF8000</font> => <font style="color: #FF8000">#FF8000</font>
+#6 0.157 highlight.default => <font style="color: #0000BB">#0000BB</font> => <font style="color: #0000BB">#0000BB</font>
+#6 0.157 highlight.html => <font style="color: #000000">#000000</font> => <font style="color: #000000">#000000</font>
+#6 0.157 highlight.keyword => <font style="color: #007700">#007700</font> => <font style="color: #007700">#007700</font>
+#6 0.157 highlight.string => <font style="color: #DD0000">#DD0000</font> => <font style="color: #DD0000">#DD0000</font>
+#6 0.157 html_errors => Off => Off
+#6 0.157 ignore_repeated_errors => Off => Off
+#6 0.157 ignore_repeated_source => Off => Off
+#6 0.157 ignore_user_abort => Off => Off
+#6 0.157 implicit_flush => On => On
+#6 0.157 include_path => .:/usr/local/lib/php => .:/usr/local/lib/php
+#6 0.157 input_encoding => no value => no value
+#6 0.157 internal_encoding => no value => no value
+#6 0.157 log_errors => Off => Off
+#6 0.157 mail.add_x_header => Off => Off
+#6 0.157 mail.force_extra_parameters => no value => no value
+#6 0.157 mail.log => no value => no value
+#6 0.157 mail.mixed_lf_and_crlf => Off => Off
+#6 0.157 max_execution_time => 0 => 0
+#6 0.157 max_file_uploads => 20 => 20
+#6 0.157 max_input_nesting_level => 64 => 64
+#6 0.157 max_input_time => -1 => -1
+#6 0.157 max_input_vars => 1000 => 1000
+#6 0.157 max_multipart_body_parts => -1 => -1
+#6 0.157 memory_limit => 128M => 128M
+#6 0.157 open_basedir => no value => no value
+#6 0.157 output_buffering => 0 => 0
+#6 0.157 output_encoding => no value => no value
+#6 0.157 output_handler => no value => no value
+#6 0.157 post_max_size => 8M => 8M
+#6 0.157 precision => 14 => 14
+#6 0.157 realpath_cache_size => 4096K => 4096K
+#6 0.157 realpath_cache_ttl => 120 => 120
+#6 0.157 register_argc_argv => On => On
+#6 0.157 report_memleaks => On => On
+#6 0.157 report_zend_debug => Off => Off
+#6 0.157 request_order => no value => no value
+#6 0.157 sendmail_from => no value => no value
+#6 0.157 sendmail_path => /usr/sbin/sendmail -t -i => /usr/sbin/sendmail -t -i
+#6 0.157 serialize_precision => -1 => -1
+#6 0.157 short_open_tag => On => On
+#6 0.157 SMTP => localhost => localhost
+#6 0.157 smtp_port => 25 => 25
+#6 0.157 sys_temp_dir => no value => no value
+#6 0.157 syslog.facility => LOG_USER => LOG_USER
+#6 0.157 syslog.filter => no-ctrl => no-ctrl
+#6 0.157 syslog.ident => php => php
+#6 0.157 unserialize_callback_func => no value => no value
+#6 0.157 upload_max_filesize => 2M => 2M
+#6 0.157 upload_tmp_dir => no value => no value
+#6 0.157 user_dir => no value => no value
+#6 0.157 user_ini.cache_ttl => 300 => 300
+#6 0.157 user_ini.filename => .user.ini => .user.ini
+#6 0.157 variables_order => EGPCS => EGPCS
+#6 0.157 xmlrpc_error_number => 0 => 0
+#6 0.157 xmlrpc_errors => Off => Off
+#6 0.157 zend.assertions => 1 => 1
+#6 0.157 zend.detect_unicode => On => On
+#6 0.157 zend.enable_gc => On => On
+#6 0.157 zend.exception_ignore_args => Off => Off
+#6 0.157 zend.exception_string_param_max_len => 15 => 15
+#6 0.157 zend.multibyte => Off => Off
+#6 0.157 zend.script_encoding => no value => no value
+#6 0.157 zend.signal_check => Off => Off
+#6 0.157 
+#6 0.157 ctype
+#6 0.157 
+#6 0.157 ctype functions => enabled
+#6 0.157 
+#6 0.157 curl
+#6 0.157 
+#6 0.157 cURL support => enabled
+#6 0.157 cURL Information => 7.88.1
+#6 0.157 Age => 10
+#6 0.157 Features
+#6 0.157 AsynchDNS => Yes
+#6 0.157 CharConv => No
+#6 0.157 Debug => No
+#6 0.157 GSS-Negotiate => No
+#6 0.157 IDN => Yes
+#6 0.157 IPv6 => Yes
+#6 0.157 krb4 => No
+#6 0.157 Largefile => Yes
+#6 0.157 libz => Yes
+#6 0.157 NTLM => Yes
+#6 0.157 NTLMWB => Yes
+#6 0.157 SPNEGO => Yes
+#6 0.157 SSL => Yes
+#6 0.157 SSPI => No
+#6 0.157 TLS-SRP => Yes
+#6 0.157 HTTP2 => Yes
+#6 0.157 GSSAPI => Yes
+#6 0.157 KERBEROS5 => Yes
+#6 0.157 UNIX_SOCKETS => Yes
+#6 0.157 PSL => Yes
+#6 0.157 HTTPS_PROXY => Yes
+#6 0.157 MULTI_SSL => No
+#6 0.157 BROTLI => Yes
+#6 0.157 ALTSVC => Yes
+#6 0.157 HTTP3 => No
+#6 0.157 UNICODE => No
+#6 0.157 ZSTD => Yes
+#6 0.157 HSTS => Yes
+#6 0.157 GSASL => No
+#6 0.157 Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, ldap, ldaps, mqtt, pop3, pop3s, rtmp, rtmpe, rtmps, rtmpt, rtmpte, rtmpts, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+#6 0.157 Host => aarch64-unknown-linux-gnu
+#6 0.157 SSL Version => OpenSSL/3.0.15
+#6 0.157 ZLib Version => 1.2.13
+#6 0.157 libSSH Version => libssh2/1.10.0
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 curl.cainfo => no value => no value
+#6 0.157 
+#6 0.157 date
+#6 0.157 
+#6 0.157 date/time support => enabled
+#6 0.157 timelib version => 2022.12
+#6 0.157 "Olson" Timezone Database Version => 2024.2
+#6 0.157 Timezone Database => internal
+#6 0.157 Default timezone => UTC
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 date.default_latitude => 31.7667 => 31.7667
+#6 0.157 date.default_longitude => 35.2333 => 35.2333
+#6 0.157 date.sunrise_zenith => 90.833333 => 90.833333
+#6 0.157 date.sunset_zenith => 90.833333 => 90.833333
+#6 0.157 date.timezone => UTC => UTC
+#6 0.157 
+#6 0.157 dom
+#6 0.157 
+#6 0.157 DOM/XML => enabled
+#6 0.157 DOM/XML API Version => 20031129
+#6 0.157 libxml Version => 2.9.14
+#6 0.157 HTML Support => enabled
+#6 0.157 XPath Support => enabled
+#6 0.157 XPointer Support => enabled
+#6 0.157 Schema Support => enabled
+#6 0.157 RelaxNG Support => enabled
+#6 0.157 
+#6 0.157 fileinfo
+#6 0.157 
+#6 0.157 fileinfo support => enabled
+#6 0.157 libmagic => 540
+#6 0.157 
+#6 0.157 filter
+#6 0.157 
+#6 0.157 Input Validation and Filtering => enabled
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 filter.default => unsafe_raw => unsafe_raw
+#6 0.157 filter.default_flags => no value => no value
+#6 0.157 
+#6 0.157 hash
+#6 0.157 
+#6 0.157 hash support => enabled
+#6 0.157 Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat murmur3a murmur3c murmur3f xxh32 xxh64 xxh3 xxh128 haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+#6 0.157 
+#6 0.157 MHASH support => Enabled
+#6 0.157 MHASH API Version => Emulated Support
+#6 0.157 
+#6 0.157 iconv
+#6 0.157 
+#6 0.157 iconv support => enabled
+#6 0.157 iconv implementation => glibc
+#6 0.157 iconv library version => 2.36
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 iconv.input_encoding => no value => no value
+#6 0.157 iconv.internal_encoding => no value => no value
+#6 0.157 iconv.output_encoding => no value => no value
+#6 0.157 
+#6 0.157 json
+#6 0.157 
+#6 0.157 json support => enabled
+#6 0.157 
+#6 0.157 libxml
+#6 0.157 
+#6 0.157 libXML support => active
+#6 0.157 libXML Compiled Version => 2.9.14
+#6 0.157 libXML Loaded Version => 20914
+#6 0.157 libXML streams => enabled
+#6 0.157 
+#6 0.157 mbstring
+#6 0.157 
+#6 0.157 Multibyte Support => enabled
+#6 0.157 Multibyte string engine => libmbfl
+#6 0.157 HTTP input encoding translation => disabled
+#6 0.157 libmbfl version => 1.3.2
+#6 0.157 
+#6 0.157 mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+#6 0.157 
+#6 0.157 Multibyte (japanese) regex support => enabled
+#6 0.157 Multibyte regex (oniguruma) version => 6.9.8
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 mbstring.detect_order => no value => no value
+#6 0.157 mbstring.encoding_translation => Off => Off
+#6 0.157 mbstring.http_input => no value => no value
+#6 0.157 mbstring.http_output => no value => no value
+#6 0.157 mbstring.http_output_conv_mimetypes => ^(text/|application/xhtml\+xml) => ^(text/|application/xhtml\+xml)
+#6 0.157 mbstring.internal_encoding => no value => no value
+#6 0.157 mbstring.language => neutral => neutral
+#6 0.157 mbstring.regex_retry_limit => 1000000 => 1000000
+#6 0.157 mbstring.regex_stack_limit => 100000 => 100000
+#6 0.157 mbstring.strict_detection => Off => Off
+#6 0.157 mbstring.substitute_character => no value => no value
+#6 0.157 
+#6 0.157 mysqlnd
+#6 0.157 
+#6 0.157 mysqlnd => enabled
+#6 0.157 Version => mysqlnd 8.2.28
+#6 0.157 Compression => supported
+#6 0.157 core SSL => supported
+#6 0.157 extended SSL => supported
+#6 0.157 Command buffer size => 4096
+#6 0.157 Read buffer size => 32768
+#6 0.157 Read timeout => 86400
+#6 0.157 Collecting statistics => Yes
+#6 0.157 Collecting memory statistics => No
+#6 0.157 Tracing => n/a
+#6 0.157 Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
+#6 0.157 API Extensions =>  
+#6 0.157 
+#6 0.157 openssl
+#6 0.157 
+#6 0.157 OpenSSL support => enabled
+#6 0.157 OpenSSL Library Version => OpenSSL 3.0.15 3 Sep 2024
+#6 0.157 OpenSSL Header Version => OpenSSL 3.0.15 3 Sep 2024
+#6 0.157 Openssl default config => /usr/lib/ssl/openssl.cnf
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 openssl.cafile => no value => no value
+#6 0.157 openssl.capath => no value => no value
+#6 0.157 
+#6 0.157 pcre
+#6 0.157 
+#6 0.157 PCRE (Perl Compatible Regular Expressions) Support => enabled
+#6 0.157 PCRE Library Version => 10.40 2022-04-14
+#6 0.157 PCRE Unicode Version => 14.0.0
+#6 0.157 PCRE JIT Support => enabled
+#6 0.157 PCRE JIT Target => ARM-64 64bit (little endian + unaligned)
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 pcre.backtrack_limit => 1000000 => 1000000
+#6 0.157 pcre.jit => On => On
+#6 0.157 pcre.recursion_limit => 100000 => 100000
+#6 0.157 
+#6 0.157 PDO
+#6 0.157 
+#6 0.157 PDO support => enabled
+#6 0.157 PDO drivers => sqlite
+#6 0.157 
+#6 0.157 pdo_sqlite
+#6 0.157 
+#6 0.157 PDO Driver for SQLite 3.x => enabled
+#6 0.157 SQLite Library => 3.40.1
+#6 0.157 
+#6 0.157 Phar
+#6 0.157 
+#6 0.157 Phar: PHP Archive support => enabled
+#6 0.157 Phar API version => 1.1.1
+#6 0.157 Phar-based phar archives => enabled
+#6 0.157 Tar-based phar archives => enabled
+#6 0.157 ZIP-based phar archives => enabled
+#6 0.157 gzip compression => enabled
+#6 0.157 bzip2 compression => disabled (install ext/bz2)
+#6 0.157 Native OpenSSL support => enabled
+#6 0.157 
+#6 0.157 
+#6 0.157 Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+#6 0.157 Phar fully realized by Gregory Beaver and Marcus Boerger.
+#6 0.157 Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 phar.cache_list => no value => no value
+#6 0.157 phar.readonly => On => On
+#6 0.157 phar.require_hash => On => On
+#6 0.157 
+#6 0.157 posix
+#6 0.157 
+#6 0.157 POSIX support => enabled
+#6 0.157 
+#6 0.157 random
+#6 0.157 
+#6 0.157 Version => 8.2.28
+#6 0.157 
+#6 0.157 readline
+#6 0.157 
+#6 0.157 Readline Support => enabled
+#6 0.157 Readline library => 8.2
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 cli.pager => no value => no value
+#6 0.157 cli.prompt => \>  => \> 
+#6 0.157 
+#6 0.157 Reflection
+#6 0.157 
+#6 0.157 Reflection => enabled
+#6 0.157 
+#6 0.157 session
+#6 0.157 
+#6 0.157 Session Support => enabled
+#6 0.157 Registered save handlers => files user 
+#6 0.157 Registered serializer handlers => php_serialize php php_binary 
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 session.auto_start => Off => Off
+#6 0.157 session.cache_expire => 180 => 180
+#6 0.157 session.cache_limiter => nocache => nocache
+#6 0.157 session.cookie_domain => no value => no value
+#6 0.157 session.cookie_httponly => Off => Off
+#6 0.157 session.cookie_lifetime => 0 => 0
+#6 0.157 session.cookie_path => / => /
+#6 0.157 session.cookie_samesite => no value => no value
+#6 0.157 session.cookie_secure => Off => Off
+#6 0.157 session.gc_divisor => 100 => 100
+#6 0.157 session.gc_maxlifetime => 1440 => 1440
+#6 0.157 session.gc_probability => 1 => 1
+#6 0.157 session.lazy_write => On => On
+#6 0.157 session.name => PHPSESSID => PHPSESSID
+#6 0.157 session.referer_check => no value => no value
+#6 0.157 session.save_handler => files => files
+#6 0.157 session.save_path => no value => no value
+#6 0.157 session.serialize_handler => php => php
+#6 0.157 session.sid_bits_per_character => 4 => 4
+#6 0.157 session.sid_length => 32 => 32
+#6 0.157 session.upload_progress.cleanup => On => On
+#6 0.157 session.upload_progress.enabled => On => On
+#6 0.157 session.upload_progress.freq => 1% => 1%
+#6 0.157 session.upload_progress.min_freq => 1 => 1
+#6 0.157 session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+#6 0.157 session.upload_progress.prefix => upload_progress_ => upload_progress_
+#6 0.157 session.use_cookies => On => On
+#6 0.157 session.use_only_cookies => On => On
+#6 0.157 session.use_strict_mode => Off => Off
+#6 0.157 session.use_trans_sid => Off => Off
+#6 0.157 
+#6 0.157 SimpleXML
+#6 0.157 
+#6 0.157 SimpleXML support => enabled
+#6 0.157 Schema support => enabled
+#6 0.157 
+#6 0.157 sodium
+#6 0.157 
+#6 0.157 sodium support => enabled
+#6 0.157 libsodium headers version => 1.0.18
+#6 0.157 libsodium library version => 1.0.18
+#6 0.157 
+#6 0.157 SPL
+#6 0.157 
+#6 0.157 SPL support => enabled
+#6 0.157 Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+#6 0.157 Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+#6 0.157 
+#6 0.157 sqlite3
+#6 0.157 
+#6 0.157 SQLite3 support => enabled
+#6 0.157 SQLite Library => 3.40.1
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 sqlite3.defensive => On => On
+#6 0.157 sqlite3.extension_dir => no value => no value
+#6 0.157 
+#6 0.157 standard
+#6 0.157 
+#6 0.157 Dynamic Library Support => enabled
+#6 0.157 Path to sendmail => /usr/sbin/sendmail -t -i
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 assert.active => On => On
+#6 0.157 assert.bail => Off => Off
+#6 0.157 assert.callback => no value => no value
+#6 0.157 assert.exception => On => On
+#6 0.157 assert.warning => On => On
+#6 0.157 auto_detect_line_endings => Off => Off
+#6 0.157 default_socket_timeout => 60 => 60
+#6 0.157 from => no value => no value
+#6 0.157 session.trans_sid_hosts => no value => no value
+#6 0.157 session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+#6 0.157 unserialize_max_depth => 4096 => 4096
+#6 0.157 url_rewriter.hosts => no value => no value
+#6 0.157 url_rewriter.tags => form= => form=
+#6 0.157 user_agent => no value => no value
+#6 0.157 
+#6 0.157 tokenizer
+#6 0.157 
+#6 0.157 Tokenizer Support => enabled
+#6 0.157 
+#6 0.157 xml
+#6 0.157 
+#6 0.157 XML Support => active
+#6 0.157 XML Namespace Support => active
+#6 0.157 libxml2 Version => 2.9.14
+#6 0.157 
+#6 0.157 xmlreader
+#6 0.157 
+#6 0.157 XMLReader => enabled
+#6 0.157 
+#6 0.157 xmlwriter
+#6 0.157 
+#6 0.157 XMLWriter => enabled
+#6 0.157 
+#6 0.157 zlib
+#6 0.157 
+#6 0.157 ZLib Support => enabled
+#6 0.157 Stream Wrapper => compress.zlib://
+#6 0.157 Stream Filter => zlib.inflate, zlib.deflate
+#6 0.157 Compiled Version => 1.2.13
+#6 0.157 Linked Version => 1.2.13
+#6 0.157 
+#6 0.157 Directive => Local Value => Master Value
+#6 0.157 zlib.output_compression => Off => Off
+#6 0.157 zlib.output_compression_level => -1 => -1
+#6 0.157 zlib.output_handler => no value => no value
+#6 0.157 
+#6 0.157 Additional Modules
+#6 0.157 
+#6 0.157 Module Name
+#6 0.157 
+#6 0.157 Environment
+#6 0.157 
+#6 0.157 Variable => Value
+#6 0.157 PHP_INI_DIR => /usr/local/etc/php
+#6 0.157 HOME => /root
+#6 0.157 PHP_LDFLAGS => -Wl,-O1 -pie
+#6 0.157 PHP_CFLAGS => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 PHP_VERSION => 8.2.28
+#6 0.157 GPG_KEYS => 39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC
+#6 0.157 PHP_CPPFLAGS => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 PHP_ASC_URL => https://www.php.net/distributions/php-8.2.28.tar.xz.asc
+#6 0.157 PHP_URL => https://www.php.net/distributions/php-8.2.28.tar.xz
+#6 0.157 PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+#6 0.157 PHPIZE_DEPS => autoconf                dpkg-dev                file            g++             gcc             libc-dev  make             pkg-config              re2c
+#6 0.157 PWD => /
+#6 0.157 PHP_SHA256 => af8c9153153a7f489153b7a74f2f29a5ee36f5cb2c6c6929c98411a577e89c91
+#6 0.157 
+#6 0.157 PHP Variables
+#6 0.157 
+#6 0.157 Variable => Value
+#6 0.157 $_SERVER['PHP_INI_DIR'] => /usr/local/etc/php
+#6 0.157 $_SERVER['HOME'] => /root
+#6 0.157 $_SERVER['PHP_LDFLAGS'] => -Wl,-O1 -pie
+#6 0.157 $_SERVER['PHP_CFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 $_SERVER['PHP_VERSION'] => 8.2.28
+#6 0.157 $_SERVER['GPG_KEYS'] => 39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC
+#6 0.157 $_SERVER['PHP_CPPFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 $_SERVER['PHP_ASC_URL'] => https://www.php.net/distributions/php-8.2.28.tar.xz.asc
+#6 0.157 $_SERVER['PHP_URL'] => https://www.php.net/distributions/php-8.2.28.tar.xz
+#6 0.157 $_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+#6 0.157 $_SERVER['PHPIZE_DEPS'] => autoconf            dpkg-dev                file            g++             gcc             libc-dev           make            pkg-config              re2c
+#6 0.157 $_SERVER['PWD'] => /
+#6 0.157 $_SERVER['PHP_SHA256'] => af8c9153153a7f489153b7a74f2f29a5ee36f5cb2c6c6929c98411a577e89c91
+#6 0.157 $_SERVER['PHP_SELF'] => 
+#6 0.157 $_SERVER['SCRIPT_NAME'] => 
+#6 0.157 $_SERVER['SCRIPT_FILENAME'] => 
+#6 0.157 $_SERVER['PATH_TRANSLATED'] => 
+#6 0.157 $_SERVER['DOCUMENT_ROOT'] => 
+#6 0.157 $_SERVER['REQUEST_TIME_FLOAT'] => 1747365970.8489
+#6 0.157 $_SERVER['REQUEST_TIME'] => 1747365970
+#6 0.157 $_SERVER['argv'] => Array
+#6 0.157 (
+#6 0.157 )
+#6 0.157 
+#6 0.157 $_SERVER['argc'] => 0
+#6 0.157 $_ENV['PHP_INI_DIR'] => /usr/local/etc/php
+#6 0.157 $_ENV['HOME'] => /root
+#6 0.157 $_ENV['PHP_LDFLAGS'] => -Wl,-O1 -pie
+#6 0.157 $_ENV['PHP_CFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 $_ENV['PHP_VERSION'] => 8.2.28
+#6 0.157 $_ENV['GPG_KEYS'] => 39B641343D8C104B2B146DC3F9C39DC0B9698544 E60913E4DF209907D8E30D96659A97C9CF2A795A 1198C0117593497A5EC5C199286AF1F9897469DC
+#6 0.157 $_ENV['PHP_CPPFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+#6 0.157 $_ENV['PHP_ASC_URL'] => https://www.php.net/distributions/php-8.2.28.tar.xz.asc
+#6 0.157 $_ENV['PHP_URL'] => https://www.php.net/distributions/php-8.2.28.tar.xz
+#6 0.157 $_ENV['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+#6 0.157 $_ENV['PHPIZE_DEPS'] => autoconf               dpkg-dev                file            g++             gcc             libc-dev           make            pkg-config              re2c
+#6 0.157 $_ENV['PWD'] => /
+#6 0.157 $_ENV['PHP_SHA256'] => af8c9153153a7f489153b7a74f2f29a5ee36f5cb2c6c6929c98411a577e89c91
+#6 0.157 
+#6 0.157 PHP License
+#6 0.157 This program is free software; you can redistribute it and/or modify
+#6 0.157 it under the terms of the PHP License as published by the PHP Group
+#6 0.157 and included in the distribution in the file:  LICENSE
+#6 0.157 
+#6 0.157 This program is distributed in the hope that it will be useful,
+#6 0.157 but WITHOUT ANY WARRANTY; without even the implied warranty of
+#6 0.157 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#6 0.157 
+#6 0.157 If you did not receive a copy of the PHP license, or have any
+#6 0.157 questions about PHP licensing, please contact license@php.net.
+#6 DONE 0.2s

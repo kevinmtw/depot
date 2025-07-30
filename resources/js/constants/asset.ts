@@ -1,0 +1,10 @@
+export const BrandLogo = '/images/Logo.png';
+// export const HeroBanner = '/images/Banner.png';
+export const HeroBanner = '/images/Banner Store.png';
+export const Gallon = '/images/Gallon.png';
+export const Machine = '/images/Machine.png';
+export const GallonCleaning = '/images/Gallon Cleaning.png';
+export const Staff = '/images/Staff.png';
+export const Tube = '/images/Tube.png';
+export const Warehouse = '/images/Warehouse.png';
+export const Pipe = '/images/Pipe.png';

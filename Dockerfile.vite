@@ -1,0 +1,12 @@
+# ./Dockerfile.vite (for Vite frontend dev server)
+FROM node:20-alpine
+
+RUN apk add --no-cache dumb-init
+
+WORKDIR /app
+COPY . .
+
+RUN npm install --legacy-peer-deps
+
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["npm", "run", "dev"]
